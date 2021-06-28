@@ -150,6 +150,14 @@ body{
     flex-wrap: wrap;
     width: 60%;
 }
+.fonddebox{
+    background-color: #f2f2f2;
+    border-radius: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .hebergements{
-    width: 75%;
+    width: 60%;
 }
