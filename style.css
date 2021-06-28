@@ -81,29 +81,41 @@ h2{
     cursor: pointer;
 }
 /*filtre*/
-.conteneur{
+.flexcentre{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space space-between;
-    align-items: flex-start;
-
+    justify-content: center;
+    align-items: center;
 }
-.logofiltre{
-    border-top-right-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
- color: #0065fc;
- background-color: #DEEBFF ;
-border-radius:100%;
-border: 5% #f2f2f2;
-padding: 0.5%;
-align-items: center;
-justify-content: center;
-
+.filtre{
+    display: flex;
+    align-items: center;
 }
-.boutonfiltre{
-    background-color: white; 
-    border-top-right-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
-    border: 3px solid #f2f2f2;
+.marges{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.margeTitre{
+    margin-right: 20px;
+}
+.textefiltre{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreicones{
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+.texte{
+    padding-left: 10%;
+    padding-right: 10px;
+}
+.Flexbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
