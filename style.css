@@ -10,19 +10,24 @@ body{
     float: left;
 }
 
-
 /*entete de recherche haut droit*/
 
-#entete{
+.entete{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:flex-end ;  
     justify-content:flex-end ; 
 }
 .nav1{
-   
    color:#0065fc;
     margin: 1%;
+    text-decoration: none;
+}
+.nav2{
+    color: grey;
+    margin: 1%;
+    text-decoration: none;
 }
 /*header*/
 .margelogo{
@@ -136,17 +141,16 @@ body{
     margin-right: 15px;
 }
 /*tableau hébergements*/
-.conteneur{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-
+.contener{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 .boxarticle1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     width: 70%;
@@ -156,11 +160,13 @@ body{
     background-color: #f2f2f2;
     border-radius: 5%;
     padding-bottom: 2%;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    
 }
 .hebergements{
+    width: 60%;
     width: 50%;  
 }
 .populaire{
@@ -169,4 +175,5 @@ body{
 .poplogo{
 display: flex;
 flex-direction: row;
+justify-content: space-between;
 }

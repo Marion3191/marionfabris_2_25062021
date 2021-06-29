@@ -11,15 +11,15 @@
     <body>
        <nav>
            <img src="images/logo/Reservia-mini.png" class="imageflottante" alt="logoreservia"/>
-            <div id="entete" >
-                <div class="nav1" >  
-                    <a href="#hebergements" style="text-decoration: none;">Hébergements</a>
+            <div class="navigation">
+                <div>  
+                    <a class="textdeco nav1" href="#hebergements">Hébergements</a>
                 </div>
-                <div class="nav1" > 
-                    <a href="#activites" style="text-decoration: none;">Activités</a>
+                <div> 
+                    <a class="textdeco nav2" href="#activites">Activités</a>
                 </div>
-                <div class="nav1"> 
-                    <a href="#" style="text-decoration: none;">S'inscrire</a>
+                <div> 
+                    <a class="textdeco nav1" href="#">S'inscrire</a>
                 </div>
             </div>
         </nav>
@@ -63,8 +63,8 @@
             <section class="hebergements fonddebox">
                 <h2>Hébergements à Marseille</h2>
                 <div class="boxarticle1">
-                    <article class="miniaturehébergement ">
-                        <a href="#"> <img src="images/hebergements/4_small/logement1mini.jpg" alt="chambreauberge"> 
+                    <article class="miniaturehébergement photoclick">
+                        <a href="#"> <img src=" images/hebergements/4_small/logement1mini.jpg" alt="chambreauberge" class=" Photohébergement"> 
                             <h3> Auberge la cannebière</h3>
                                  Nuit à partir de 25€
                             <div>
@@ -76,8 +76,8 @@
                             </div>
                         </a>
                     </article>
-                    <article class="miniaturehébergement">
-                        <a href="#"> <img src="images/hebergements/4_small/logement2mini.jpg" alt="hotelduport"> 
+                    <article class="miniaturehébergement photoclick">
+                        <a href="#"> <img src="images/hebergements/4_small/logement2mini.jpg" alt="hotelduport" class="Photohébergement"> 
                             <h3> Hôtel du port </h3>
                                  Nuit à partir de 52€
                             <div> 
@@ -89,8 +89,8 @@
                             </div>
                         </a>
                     </article>
-                    <article class="miniaturehébergement ">
-                        <a href="#"> <img src="images/hebergements/4_small/logement3mini.jpg" alt="hôtellesmouettes"> 
+                    <article class="miniaturehébergement photoclick ">
+                        <a href="#"> <img src="images/hebergements/4_small/logement3mini.jpg" alt="hôtellesmouettes" class="Photohébergement"> 
                             <h3>  hôtel Les mouettes</h3>
                                   Nuit à partir de 76€
                             <div>
@@ -102,8 +102,8 @@
                             </div>
                         </a>
                         </article>
-                        <article class="miniaturehébergement">
-                            <a href="#"> <img src="images/hebergements/4_small/logement4mini.jpg" alt="hôteldelamer">
+                        <article class="miniaturehébergement photoclick">
+                            <a href="#"> <img src="images/hebergements/4_small/logement4mini.jpg" alt="hôteldelamer" class="Photohébergement">
                             <h3> Hôtel de la mer</h3>
                                  Nuit à partir de 46€ 
                             <div>
@@ -115,7 +115,8 @@
                             </div></a>
                         </article>  
 
-                        <article class="miniaturehébergement"><a href="#"> <img src="images/hebergements/4_small/logement5mini.jpg" alt="aubergelepanier"> 
+                        <article class="miniaturehébergement photoclick">
+                            <a href="#"> <img src="images/hebergements/4_small/logement5mini.jpg" alt="aubergelepanier" class="Photohébergement"> 
                             <h3> Auberge Le Panier</h3>
                                 Nuit à partir de 23€
                             <div><i class="fas fa-star etoitebleu"></i>
@@ -126,7 +127,8 @@
                             </div></a>
                         </article>  
 
-                    <article class="miniaturehébergement"><a href="#"> <img src="images/hebergements/4_small/logement6mini.jpg" alt="Hôtelchezamina"> 
+                    <article class="miniaturehébergement photoclick">
+                        <a href="#"> <img src="images/hebergements/4_small/logement6mini.jpg" alt="Hôtelchezamina" class="Photohébergement"> 
                             <h3>Hôtel chez Amina </h3>
                                 Nuit à partir de 96€
                             <div> <i class="fas fa-star etoitebleu"></i>
@@ -137,10 +139,12 @@
                         </div> </a>
                     </article> 
                 </div>
-                <a href="#">Afficher plus</a> </p>
+                <a href="#" class="plus">Afficher plus</a> </p>
             </section>
-            <section class="populaire fonddebox">
-                <h3> Les plus populaires <i class="fas fa-chart-line poplogo"></i></h3>
+
+
+            <section class="populaire fonddebox"> 
+                <h3 class="poplogo"> Les plus populaires <i class="fas fa-chart-line"></i></h3>
                     <article class="minihébergementpop"> 
                         <a href="#"> <img src="images/hebergements/4_small/pop1mini.jpg" alt="hôtellesoleildumatin" >
                             <h3>  Hôtel le soleil du matin</h3>
@@ -164,46 +168,31 @@
 
             </section> 
         </div> 
-            <p> 
+          <section> <p> 
                 <h3 id="activites">
                 Activités à Marseille</h3>
-                <div class="activités"><a href="#"> <img src="images/activites/4_small/activite1.jpg" alt="vieuxport"></a> 
-                <h3>Vieux Port</h3> </div>
+                <div class="activités"><a href="#"> <img src="images/activites/4_small/activite1.jpg" alt="vieuxport">
+                <h3>Vieux Port</h3> </div></a> 
 
-                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite2.jpg" alt="fortdepomègues"></a> 
-                <h3>Fort de Pomègues</h3> </div>
+                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite2.jpg" alt="fortdepomègues">
+                <h3>Fort de Pomègues</h3> </div></a> 
 
-                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite3.jpg" alt="îlesdufrioul"></a> 
-                <h3>Îles du Frioul</h3> </div>
+                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite3.jpg" alt="îlesdufrioul">
+                <h3>Îles du Frioul</h3> </div></a> 
 
-                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite4.jpg" alt="parcdescalanques"></a> 
-                <h3>Parc National des Calanques</h3> </div>
+                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite4.jpg" alt="parcdescalanques">
+                        <h3>Parc National des Calanques</h3></div></a>
 
-                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite5.jpg" alt="notredamedelagarde"></a> 
-                <h3>Notre-Dame-de-la-Garde</h3> </div>
+                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite5.jpg" alt="notredamedelagarde">
+                <h3>Notre-Dame-de-la-Garde</h3> </div></a> 
 
-                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite6.jpg" alt="parclongchamp"> </a> 
-                <h3>Parc Longchamp</h3> </div>
-            </div></p>
+                    <div class="activités"><a href="#"> <img src="images/activites/4_small/activite6.jpg" alt="parclongchamp"> 
+                <h3>Parc Longchamp</h3> </div></a> 
+            </p>
         </section>
-<footer> 
-    <p>                                <div><i class="fas fa-star etoitebleu"></i>
-        <i class="fas fa-star etoilebleu"></i>
-        <i class="fas fa-star etoilebleu"></i>
-        <i class="fas fa-star etoilebleu"></i>
-        <i class="fas fa-star etoilegrise"></i></div>
-</div>      
-* <div class="miniaturehébergement"><a href="#"> <img src="images/hebergements/4_small/logement6mini.jpg" alt="Hôtelchezamina"> 
-     <h3>Hôtel chez Amina </h3>
-                           Nuit à partir de 96€</a>
-  <div> <i class="fas fa-star etoitebleu"></i>
-        <i class="fas fa-star etoilebleu"></i>
-        <i class="fas fa-star etoilebleu"></i>
-        <i class="fas fa-star etoilebleu"></i>
-        <i class="fas fa-star etoilebleu"></i></div> 
-</div>                     
-<a href="#">Afficher plus</a> </p>
-                       
+
+
+<footer>                     
 </div>
 
         <h3>A propos</h3>
