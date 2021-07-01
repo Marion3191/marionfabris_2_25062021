@@ -151,7 +151,6 @@ body {
 /*tableau hébergements*/
 .conteneur {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   width: 100%;
@@ -220,25 +219,21 @@ h2{
   width: auto;
   height: 100px;
 }
-.fondpopulaire {
-  background-color: white;
-  border-radius: 5%;
-}
+
 .boxarticle2 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-around;
-
 }
 .articlepopulaire{
-  background-color: seagreen;
+  background-color:white;
   border-radius: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   text-decoration: none;
-  
+  margin: 50px;
+  height: 100px;
 }
 
 /*activite a marseille*/
