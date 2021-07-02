@@ -7,34 +7,40 @@
 body {
   margin: auto;
 }
-.imageflottante {
-  float: left;
-  width: 5%;
+.entete_img{
+  flex: 1;
+}
+.entete_img img{
+  width:10% ;
 }
 
 /*entete de recherche haut droit*/
 .entete {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+ width: 100%;
+}
+.navigations{
+  display: flex;
+  width: 400px;
 }
 .nav1 {
   color: #0026fc;
-  margin: 1%;
   text-decoration: none;
-  border-top: 1px solid #0026fc;
+  width: 50%;
+  
 }
 .nav2 {
   color: grey;
-  margin: 1%;
   text-decoration: none;
+  width: 50%;
+  
 }
 .nav3 {
   color: #0026fc;
-  margin: 1%;
   text-decoration: none;
   font-weight: bold;
+  width: 200px;
+  display: block;
 }
 /*header*/
 .margelogo {
@@ -260,7 +266,7 @@ h2{
   text-decoration: none;
   margin:0px 10px 50px 30px;
   height: 150px;
-  width:90%
+  width:90%;
 }
 
 /*activite a marseille*/
@@ -289,7 +295,7 @@ h2{
 }
 .arriereplan {
   box-shadow: 5px 5px 5px 1px #f2f2f2;
-  background-color:white);
+  background-color:white;
   border-radius: 10px;
 }
 
@@ -304,4 +310,50 @@ h2{
 }
 ul {
   list-style-type: none;
+}
+@media screen and ( max-width:1280px) {
+  .filtre{
+    flex-wrap: wrap;
+  }
+.conteneur {
+    flex-direction: column-reverse;
+  }
+  .populaire{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .hebergements{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .boxarticle2{
+    flex-direction: row;
+  }
+  .activites{
+    flex-wrap: wrap;
+  }
+  .phototactivite{
+    width: 250px;
+  }
+  .petitephotoactivite{
+    width: 180px;
+  }
+}
+@media screen and (max-width:768px) {
+  .boxarticle2{
+    flex-direction: column;
+    width:50%;
+    height: auto;
+  }
+  .populaire{
+ width: 80%;
+ height: auto;
+  }
+  .articlepopulaire{
+    width: 150%;
+  }
 }
