@@ -108,7 +108,7 @@ body {
 .survol:hover{
   color: cyan;
 }
-.filtre {
+.filtres {
   display: flex;
   align-items: center;
 }
@@ -143,6 +143,10 @@ body {
   align-items: center;
 }
 /*logoinfo*/
+.filtreinfo {
+  display: flex;
+  align-items: center;
+}
 .logoinfo {
   color: #0065fc;
   background-color: white;
@@ -312,7 +316,7 @@ ul {
   list-style-type: none;
 }
 @media screen and ( max-width:1280px) {
-  .filtre{
+  .filtres{
   
     flex-wrap: wrap;
   }
@@ -366,8 +370,14 @@ ul {
   .boutonSearch{
     width: 50px;
   }
-  .filtre{
-    flex-wrap: wrap;
+  .margeTitre{
+    font-size: 30px;
+    margin-right: 400px;
+  }
+  .filtres{
+ flex-wrap: wrap;
+width: 80%;
+ height: 50%;
   }
   .boxarticle2{
     flex-direction: column;
