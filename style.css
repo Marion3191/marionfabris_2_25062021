@@ -22,18 +22,26 @@ body {
 .navigations{
   display: flex;
   width: 400px;
+  justify-content: space-around;
 }
 .nav1 {
-  color: #0026fc;
+  padding-top: 20px;
   text-decoration: none;
-  width: 50%;}
-.nav2 {
-  color: grey;
-  text-decoration: none;
-  width: 50%;
-  
+  width: 30%;
 }
+.nav1:hover, .nav2:hover{
+    border-top:3px solid #0065fc;
+    color:#0065fc;
+  }
+.nav2 {
+  padding-top: 20px;
+  color: black;
+  text-decoration: none;
+  width: 30%;
+}
+
 .nav3 {
+  padding-top: 20px;
   color: #0026fc;
   text-decoration: none;
   font-weight: bold;
@@ -108,7 +116,7 @@ body {
   align-items: center;
 }
 .survol:hover{
-  color: cyan;
+  color:#0065fc;
 }
 .filtres {
   display: flex;
@@ -128,7 +136,6 @@ body {
   margin-right: 20px;
 }
 .filtreicones{
-  
   border-radius: 25px;
   width: 52px;
   height: 52px;
@@ -169,6 +176,7 @@ body {
   background-color: #f2f2f2;
   border-radius: 20px;
   height: 700px;
+  padding-right: 20px;
 }
 .textcolor{
   color:black;
@@ -178,15 +186,17 @@ body {
   display: flex;
   flex-direction: column;
   width: 65%;
+  margin-right: auto;
 }
 .boxarticle1 {
+  padding-left: 10px ;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  margin-left: 10px;
 }
 h2{
+  padding-left: 10px;
   margin-left:10px;
   margin-bottom: 30px;
 }
@@ -236,6 +246,7 @@ h2{
 .populaire {
   width: 25%;
   height: 700 px;
+  margin-right:3%;
 }
 .etoile{
  color: #0065fc;
@@ -289,7 +300,7 @@ h2{
 .phototactivite {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
- width: 400px;
+ width: 350px;
  height: 550px;
 }
 .petitephotoactivite {
@@ -371,7 +382,6 @@ ul {
   .nav1{
     font-size: 20px;
     border-bottom:3px solid blue;
-    
   }
   .nav2{
     border-bottom:3px solid grey;
