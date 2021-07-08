@@ -3,9 +3,13 @@
   src: url(Raleway-Black.ttf);
 }
 
+
+/* reset.css / normalize.css */
+
 /*marge du site*/
 body {
   margin: auto;
+  font-size: 16px
 }
 .entete_img{
   flex: 1;
@@ -14,7 +18,11 @@ body {
   width: 100px;
 }
 
-/*entete de recherche haut droit*/
+
+
+
+
+/* entete de recherche haut droit */
 .entete {
   display: flex;
  width: 100%;
