@@ -21,13 +21,14 @@ body {
   color: black;
 }
 .header-top-nav__links__link1{
-  border-top: 0.2vw solid #0065fc;
+
   text-decoration: none;
 }
 .header-top-nav__links__link{
   text-decoration: none;
 }
 .header-top-nav__links__link:hover {
+  border-top: 0.1vw solid #0065fc;
   color: #0065fc;
 }
 .header-top-nav__links__link--highlight{
@@ -91,9 +92,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  margin-top: 2%;
-  margin-right: 5%;
+  align-items:baseline;
   width: 20%;
 }
 
@@ -119,6 +118,8 @@ body {
   width:70%;
   height: 2.5vw;
   margin-top: 5%;
+  border-left: none;
+  padding-top: 1%;
 }
 .header-info {
   display: flex;
@@ -164,6 +165,7 @@ body {
 .main-container__hebergements__article__link{
   text-decoration: none;
 }
+
 .main-container__hebergements__article__link__img {
   object-fit: cover;
   border-top-left-radius: 1vw;
@@ -172,9 +174,6 @@ body {
   height: 10vw;
 }
 .main-container__hebergements__article__link__subtitle{
-  color: black;
-}
-.main-container__populaires__article__link__text{
   color: black;
 }
 .main-container__hebergements__link__info{
@@ -194,6 +193,8 @@ body {
   height: 50vw;
   border-radius: 3vw;
 }
+
+}
 .main-container__populaires__title__icon{
   display: flex;
   justify-content: space-around;
@@ -206,15 +207,9 @@ body {
  width: 85%;
  margin-left: 10%;
  height: 10vw;
+ text-decoration: none;
 }
-.main-container__populaires__article__link{
-  text-decoration: none;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: auto;
-}
+
 .main-container__populaires__article__link__img{
   float: left;
   object-fit: cover;
@@ -319,7 +314,7 @@ width: auto;
 }
 .main-container__populaires{
   width: 100%;
-  height: 90vw;
+  height: 96vw;
 }
 .main-container__populaires__article__link{
   width: 70%;
@@ -332,10 +327,9 @@ width: auto;
 }
 .main-container__populaires__article__link__img{
   width: 50%;
-  height: 15vw;
+  height: 12vw;
   border-top-left-radius: 3vw;
   border-bottom-left-radius: 3vw;
-  
 }
 
 
