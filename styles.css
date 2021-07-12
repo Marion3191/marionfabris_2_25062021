@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content:space-between;
+ 
 }
 .header-top-nav__logo {
   width: 10vw;
@@ -18,14 +19,10 @@ body {
   display: flex;
   justify-content: space-around;
   font-size: 1.5rem;
-  color: black;
-}
-.header-top-nav__links__link1{
-
-  text-decoration: none;
 }
 .header-top-nav__links__link{
-  text-decoration: none;
+ color: black;
+ text-decoration: none;
 }
 .header-top-nav__links__link:hover {
   border-top: 0.1vw solid #0065fc;
@@ -81,6 +78,7 @@ body {
 .header-filters {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   width: 70%;
 }
 .header-filters__title {
@@ -91,32 +89,31 @@ body {
 .header-filters__filter {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items:baseline;
-  width: 20%;
+  align-items:center;
+  width: 15%;
+  height: 3vw;
+  border: 0.2vw solid #f2f2f2;
+  border-top-right-radius: 4vw;
+  border-bottom-right-radius: 4vw;
+  border-left: none;
 }
-
 .header-filters__filter__icon {
   background-color: #deebff;
   color: #0065fc;
   border-radius: 50%;
-  width: 2.5vw;
-  height: 2.9vw;
+  width: 3vw;
+  height: 3.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
   margin-bottom: 3%;
 }
 .header-filters__filter__text {
-  border: 0.2vw solid #f2f2f2;
-  border-top-right-radius: 4vw;
-  border-bottom-right-radius: 4vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  width:70%;
-  height: 2.5vw;
+  width:60%;
+  height: 2vw;
   margin-top: 5%;
   border-left: none;
   padding-top: 1%;
@@ -164,8 +161,12 @@ body {
 }
 .main-container__hebergements__article__link{
   text-decoration: none;
-}
 
+}
+.main-container__hebergements__article__link__text {
+  margin-top: -0.3vw;
+  color: black;
+}
 .main-container__hebergements__article__link__img {
   object-fit: cover;
   border-top-left-radius: 1vw;
@@ -178,7 +179,7 @@ body {
 }
 .main-container__hebergements__link__info{
   margin-top: 2%;
-  margin-right: 90%;
+  margin-right: 80%;
   text-decoration: none;
  }
 .main-container__hebergements__article__link__icon{
@@ -192,8 +193,6 @@ body {
   width: 30%;
   height: 50vw;
   border-radius: 3vw;
-}
-
 }
 .main-container__populaires__title__icon{
   display: flex;
@@ -209,7 +208,6 @@ body {
  height: 10vw;
  text-decoration: none;
 }
-
 .main-container__populaires__article__link__img{
   float: left;
   object-fit: cover;
@@ -219,21 +217,27 @@ body {
   height: 9vw;
   padding-top: 2%;
   padding-left: 2%;
+  margin-right: 3%;
 }
 .main-container__populaires__article__link__subtitle{
  text-decoration: transparent;
  color: black;
 width: auto;
+padding-top: 5%;
+
 }
 .main-container__populaires__article__link__text{
   text-decoration: none;
   color: black;
 }
-.main-container__activites__title{
- 
-}
 .main-container__populaires__article__link__icon{
   color: #0065fc;
+}
+.main-container__activites{
+  margin-top: 5%;
+}
+.main-container__activites__title{
+  margin-left: 3%;
 }
 .main-container__activites__frame{
   display: flex;
@@ -262,11 +266,18 @@ width: auto;
   width: 100%;
   height: 30vw;
 }
+.main-container__activites__pictures__frame__bigframe__link__title {
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+}
 .main-container__activites__frame__litleframe__link__litleimg{
   border-top-right-radius: 1vw;
   border-top-left-radius: 1vw;
   width: 100%;
   height: 10vw;
+}
+.main-container__activites__pictures__frame__litleframe__link__title {
+  margin-left: 1vw;
 }
 .footer-list{
   display: flex;
@@ -281,7 +292,7 @@ width: auto;
   list-style-type: none;
 }
 .footer-list__info__list{
-  font-size: 1rem;
+  font-size: 1.2rem;
   list-style-type: none;
 }
 .footer-list__hebergements{
@@ -293,7 +304,7 @@ width: auto;
   margin-left: 10%;
 }
 .footer-list__hebergements__list{
-  font-size: 1rem;
+  font-size: 1.2rem;
   list-style-type: none;
 }
 .footer-list__help{
@@ -305,7 +316,7 @@ width: auto;
   list-style-type: none;
 }
 .footer-list__help__list{
-  font-size: 1rem;
+  font-size: 1.2rem;
   list-style-type: none;
 }
 @media screen and ( max-width:1280px) {
@@ -331,14 +342,10 @@ width: auto;
   border-top-left-radius: 3vw;
   border-bottom-left-radius: 3vw;
 }
-
-
-
-
-
 .main-container__hebergements{
   background-color: white;
   width: 100%;
+  height: 90%;
 }
 }
 
