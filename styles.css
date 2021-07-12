@@ -91,36 +91,34 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   margin-top: 2%;
   margin-right: 5%;
   width: 20%;
 }
-*{outline: solid 1px red;}
 
 .header-filters__filter__icon {
   background-color: #deebff;
   color: #0065fc;
   border-radius: 50%;
   width: 2.5vw;
-  height: 2.5vw;
+  height: 2.9vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 6%;
- margin-left: 15%;
+  margin-left: 15%;
+  margin-bottom: 3%;
 }
 .header-filters__filter__text {
   border: 0.2vw solid #f2f2f2;
   border-top-right-radius: 4vw;
   border-bottom-right-radius: 4vw;
-  border-left: none;
-  margin-right: 5%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 65%;
-  height: 2vw;
+  width:70%;
+  height: 2.5vw;
+  margin-top: 5%;
 }
 .header-info {
   display: flex;
@@ -211,6 +209,11 @@ body {
 }
 .main-container__populaires__article__link{
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: auto;
 }
 .main-container__populaires__article__link__img{
   float: left;
@@ -221,20 +224,18 @@ body {
   height: 9vw;
   padding-top: 2%;
   padding-left: 2%;
-  margin-right: 5%;
 }
 .main-container__populaires__article__link__subtitle{
- padding-top: 10%;
  text-decoration: transparent;
  color: black;
-
+width: auto;
 }
 .main-container__populaires__article__link__text{
   text-decoration: none;
   color: black;
 }
 .main-container__activites__title{
-  margin-left: 3%;
+ 
 }
 .main-container__populaires__article__link__icon{
   color: #0065fc;
@@ -321,18 +322,20 @@ body {
   height: 90vw;
 }
 .main-container__populaires__article__link{
-  width:80%;
-  height: 12vw;
+  width: 70%;
+  height: 15vw;
  border-radius: 3vw;
  display: flex;
  flex-wrap: wrap;
-}
-.main-container__populaires__article__link__subtitle{
+ flex-direction: column;
+ justify-content:flex-start;
 }
 .main-container__populaires__article__link__img{
-  width: 40%;
+  width: 50%;
+  height: 15vw;
   border-top-left-radius: 3vw;
   border-bottom-left-radius: 3vw;
+  
 }
 
 
