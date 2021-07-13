@@ -2,6 +2,7 @@
 body {
   margin: auto;
   font-size:16px;
+  font-family: 'Raleway', sans-serif;
 }
 .header-top-nav {
   display: flex;
@@ -122,18 +123,22 @@ body {
 }
 .header-info {
   display: flex;
-  font-size: 1.2rem;
+  margin-left: 2%;
 }
 .header-info__icon{
   color: #0065fc;
   background-color: white;
   border: 0.2vw solid grey;
   border-radius: 50%;
-  width: 1.2vw;
+  width: 1vw;
+  height: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.5vw;
+  margin-right: 1%;
 }
+
 .main-container {
   display: flex;
   flex-wrap: nowrap;
@@ -224,10 +229,12 @@ body {
  text-decoration: transparent;
  color: black;
  width: auto;
+ font-size: 1.5rem;
 }
 .main-container__populaires__article__link__text{
   text-decoration: none;
   color: black;
+  font-size: 1rem;
 }
 .main-container__populaires__article__link__icon{
   color: #0065fc;
@@ -363,7 +370,7 @@ body {
   
 }
 .header-info{
-  margin-left: 2%;
+  margin-left: 3%;
 }
 .header-info__icon{
   width: 5%;
@@ -394,7 +401,6 @@ body {
   border-bottom-left-radius: 3vw;
 }
 .main-container__populaires__article__link__subtitle{
-  font-size: 1.5rem;
   flex-wrap: wrap;
 }
 .main-container__hebergements{
@@ -408,7 +414,7 @@ body {
 }
 .main-container__title{
   margin: auto;
- font-size: 1.5rem;
+ font-size: 1rem;
 }
 .main-container__hebergements__article{
   margin: auto;
@@ -447,6 +453,7 @@ body {
   margin-bottom: 5%;
 }
 .footer-list{
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -474,6 +481,7 @@ body {
 height: 40vw;
 width: 100%;
 }
+
 .header-top-nav__logo{
   width: 20%;
   height: 20vw;
@@ -483,11 +491,17 @@ width: 100%;
 }
 .header-top-nav__links__link{
   margin-top: 30%;
-  width: 80%;
-  margin-right: 10%;
+  width: 70%;
 }
 .header-top-nav__links__link{
   border-bottom: #0065fc solid 1vw;
+display: flex;
+justify-content: space-between;
+font-size: 1.2rem;
+}
+.header-top-nav__links__link--highlight{
+  width: 30%;
+  font-size: 1.2rem;
 }
 .header-search{
   margin-top: 10%;
@@ -521,20 +535,22 @@ height: 5vw;
 }
 .header-filters__filter{
   font-size: 1rem;
-width: 45%;
+  width: 45%;
 }
 .header-filters__filter__icon{
   width: 20%;
+}
+.header-info{
+  font-size: 1rem;
 }
 .main-container__populaires{
   width: 100%;
  height: 100%;
 }
 .main-container__populaires__article__link{
+  display: block;
   width: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1.5rem;
+  height: 20vw;
   margin-bottom: 5%;
 }
 .main-container__populaires__article__link__subtitle{
@@ -544,7 +560,29 @@ width: 45%;
   font-size: 0.8rem;
 }
 .main-container__populaires__article__link__icon{
+
   font-size: 0.5rem;
+}
+.footer-list{
+  width: 100%;
+}
+.footer-list__info__title{
+  font-size: 1.2rem;
+}
+.footer-list__info__list{
+  font-size: 1rem;
+}
+.footer-list__hebergements__title{
+  font-size: 1.2rem;
+}
+.footer-list__hebergements__list{
+  font-size: 1rem;
+}
+.footer-list__help__title{
+  font-size: 1.2rem;
+}
+.footer-list__help__list{
+  font-size: 1rem;
 }
 }
 
