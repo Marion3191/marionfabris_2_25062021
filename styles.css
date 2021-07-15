@@ -1,9 +1,47 @@
-/* reset.css / normalize.css */
-body {
-  margin: auto;
-  font-size:16px;
-  font-family: 'Raleway', sans-serif;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
 }
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 .header-top-nav {
   display: flex;
   flex-wrap: nowrap;
@@ -14,10 +52,10 @@ body {
   height: 10%;
 }
 .header-top-nav__links {
-  margin-top: 2%;
   width: 40%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 1.5rem;
 }
 .header-top-nav__links__link{
@@ -43,6 +81,7 @@ body {
   font-size: 1rem;
   display: flex;
   margin-left: 1%;
+  margin-top: 2%;
 }
 .header_search__button__icon {
   display: none;
@@ -60,7 +99,7 @@ body {
 }
 .header_search__input {
   font-size: 1.5rem;
-  width: 20%;
+  width: 15%;
   height: 3vw;
   border: 0.1vw solid #f2f2f2;
   border-right: none;
@@ -81,6 +120,7 @@ body {
   justify-content: space-around;
   width: 100%;
   margin-top: 3%;
+  margin-bottom: 3%;
 }
 .header-filters__filter:hover{
   color: #0065fc;
@@ -88,7 +128,6 @@ body {
 }
 .header-filters__title {
   font-size: 2rem;
-  margin-top: 1%;
 }
 .header-filters__filter {
   display: flex;
@@ -106,7 +145,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5%;
 }
 .header-filters__filter__text {
   display: flex;
@@ -114,16 +152,15 @@ body {
   align-items: center;
   width:60%;
   height: 2vw;
-  margin-top: 8%;
   border: 0.2vw solid #f2f2f2;
   border-top-right-radius: 4vw;
   border-bottom-right-radius: 4vw;
   border-left: none;
-  padding-top: 1%;
 }
 .header-info {
   display: flex;
   margin-left: 2%;
+  margin-bottom: 2%;
 }
 .header-info__icon{
   color: #0065fc;
@@ -135,17 +172,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0.5vw;
-  margin-right: 1%;
 }
 
-.main-container {
+.hebergements {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   width: 100%;
 }
-.main-container__hebergements {
+.main-hebergements {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -154,11 +189,11 @@ body {
   width: 65%;
   height: 50vw;
 }
-.main-container__title {
+.main-hebergements__title {
   margin-right: 60%;
   font-size: 2rem;
 }
-.main-container__hebergements__article {
+.main-hebergements__card{
   background-color: white;
   border-radius: 1vw;
   width: 30%;
@@ -166,45 +201,48 @@ body {
   padding-top: 1%;
   padding-left: 1%;
 }
-.main-container__hebergements__article__link{
+.main-hebergements__card__link{
   text-decoration: none;
 }
-.main-container__hebergements__article__link__text {
-  margin-top: -0.3vw;
-  color: black;
-}
-.main-container__hebergements__article__link__img {
+
+.main-hebergements__card__link__image {
   object-fit: cover;
   border-top-left-radius: 1vw;
   border-top-right-radius: 1vw;
   width: 96%;
   height: 10vw;
 }
-.main-container__hebergements__article__link__subtitle{
+.main-hebergements__card__link__title{
+  color: black;
+  font-size: 2rem;
+}
+.main-hebergements__card__link__text {
+  font-size: 1.2rem;
   color: black;
 }
-.main-container__hebergements__link__info{
-  margin-top: 2%;
-  margin-right: 80%;
-  text-decoration: none;
- }
-.main-container__hebergements__article__link__icon{
+
+.main-hebergements__card__link__stars{
   color: #0065fc;
 }
 .fas.fa-star.grey{
   color: grey;
 }
-.main-container__populaires{
+.main-hebergements__link__info{
+  margin-top: 2%;
+  margin-right: 80%;
+  text-decoration: none;
+ }
+.main-populaires{
   background-color: #f2f2f2;
   width: 30%;
   height: 50vw;
   border-radius: 3vw;
 }
-.main-container__populaires__title__icon{
+.main-populaires__title__icon{
   display: flex;
   justify-content: space-around;
 }
-.main-container__populaires__article__link{
+.main-populaires__card__link{
   display: block;
  margin-top: 10%;
  background-color: white;
@@ -214,7 +252,7 @@ body {
  height: 10vw;
  text-decoration: none;
 }
-.main-container__populaires__article__link__img{
+.main-populaires__card__link__image{
   float: left;
   object-fit: cover;
   border-top-left-radius: 1vw;
@@ -225,32 +263,33 @@ body {
   padding-left: 2%;
   margin-right: 3%;
 }
-.main-container__populaires__article__link__subtitle{
+.main-populaires__card__link__title{
  text-decoration: transparent;
  color: black;
  width: auto;
- font-size: 1.5rem;
+ font-size: 2rem;
+ font-weight: 100;
 }
-.main-container__populaires__article__link__text{
+.main-populaires__card__link__text{
   text-decoration: none;
   color: black;
   font-size: 1rem;
 }
-.main-container__populaires__article__link__icon{
+.main-populaires__card__link__stars{
   color: #0065fc;
 }
-.main-container__activites{
+.main-activites{
   margin-top: 5%;
 }
-.main-container__activites__title{
+.main-activites__title{
   margin-left: 3%;
 }
-.main-container__activites__frame{
+.main-activites__card{
   display: flex;
   justify-content: space-around;
   margin-left: 3%;
 }
-.main-container__activites__frame__litleframe{
+.main-activites__card__link__image--big{
   background-color: white;
   border-radius: 1vw;
   width: 70%;
@@ -259,67 +298,42 @@ body {
   margin-left: 20%;
   margin-bottom: 20%;
 }
-.main-container__activites__frame__bigframe{
+.main-activites__card__link__image--litle{
   background-color: white;
   border-radius: 1vw;
   width: 50%;
   height: 35vw;
   box-shadow: 0.2vw 0.2vw 0.2vw 0.1vw #f2f2f2;
 }
-.main-container__activites__frame__bigframe__link__img{
+.main-activites__card__link__image--big{
   border-top-right-radius: 1vw;
   border-top-left-radius: 1vw;
   width: 100%;
   height: 30vw;
 }
-.main-container__activites__pictures__frame__bigframe__link__title {
+.main-activites__pictures__card__link__title {
   margin-left: 2vw;
   margin-top: 0.5vw;
 }
-.main-container__activites__frame__litleframe__link__litleimg{
+.main-activites__card__link__image--litle{
   border-top-right-radius: 1vw;
   border-top-left-radius: 1vw;
   width: 100%;
   height: 10vw;
 }
-.main-container__activites__pictures__frame__litleframe__link__title {
-  margin-left: 1vw;
-}
 .footer-list{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 1rem;
   background-color: #f2f2f2;
 }
-.footer-list__info__title{
+.footer-list__title{
   font-size: 1.5rem;
-  margin-left: 15%;
-  list-style-type: none;
 }
-.footer-list__info__list{
-  font-size: 1.2rem;
-  list-style-type: none;
+.footer-list__list{
+  font-size: 1rem;
 }
-.footer-list__hebergements__title{
-  font-size: 1.4rem;
-  list-style-type: none;
-}
-.footer-list__hebergements__list{
-  font-size: 1.2rem;
-  list-style-type: none;
-}
-.footer-list__help{
-  width: 20%;
-}
-.footer-list__help__title{
-  font-size: 1.5rem;
-  margin-left: 10%;
-  list-style-type: none;
-}
-.footer-list__help__list{
-  font-size: 1.2rem;
-  list-style-type: none;
+
 }
 @media screen and ( max-width:1280px) {
   .header-top-nav__logo{
@@ -566,22 +580,10 @@ height: 5vw;
 .footer-list{
   width: 100%;
 }
-.footer-list__info__title{
-  font-size: 1.2rem;
+.footer-lis__title{
+  font-size: 2rem;
 }
-.footer-list__info__list{
-  font-size: 1rem;
-}
-.footer-list__hebergements__title{
-  font-size: 1.2rem;
-}
-.footer-list__hebergements__list{
-  font-size: 1rem;
-}
-.footer-list__help__title{
-  font-size: 1.2rem;
-}
-.footer-list__help__list{
+.footer-list__list{
   font-size: 1rem;
 }
 }
