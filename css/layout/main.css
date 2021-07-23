@@ -12,10 +12,12 @@
     background-color:var(--background-color);
     border-radius: 20px 20px 20px 20px;
   }
+
   .main-hebergements__title {
     padding: var(--spacing-base);
     font-size: 1.5rem;
   }
+
   :root{
       --border-radius:1rem ;
       --padding: 1rem 1rem 1rem 1rem;
@@ -25,12 +27,11 @@
     display: grid;
     grid-gap: var(--spacing-base);
     grid-template-columns:repeat(3, 3fr);
-   
-    
   }
+
   .main-hebergements__card__link {
-      width: auto;
-      height: 100%;
+    width: auto;
+    height: 100%;
     border-radius:1rem;
     background-color: var(--white-color);
     padding-top: 5px;
@@ -42,14 +43,17 @@
     text-decoration: none;
     color: black;
   }
+
   .main-hebergements__card__link__title{
       font-size: 1.5rem;
       margin-top:5px;
   }
+
   .main-hebergements__card__link__text{
       margin-top:5px;
       font-size: 1.2;
   }
+
   .main-hebergements__card__link__image {
     object-fit: cover;
     border-top-left-radius:1rem;
@@ -57,10 +61,12 @@
     width:100%;
     height: 8rem; 
   }
+
   .main-hebergements__card__link__stars {
     margin-top:5px;
     color: #0065fc;
   }
+
   .fas.fa-star.grey {
     color: grey;
   }
@@ -70,9 +76,11 @@
     margin-left:var(--spacing-base);
     text-decoration: none;
   }
+
   :root{
     --border-radius: 1rem 1rem 1rem 1rem ;
     }
+
   .main-populaires {
     background-color:var(--background-color);
     width: 25%;
@@ -86,9 +94,11 @@
     padding-bottom: var(--spacing-base);
     padding-top: var(--spacing-base);
   }
+
   :root{
     --border-radius: 1rem 1rem 1rem 1rem;
     }
+
   .main-populaires__card__link {
     display: block;
     background-color:var( --white-color);
@@ -139,6 +149,7 @@
     width: 100%;
     height: 50rem;
   }
+
   .main-activites__title{
     margin-top: 5rem;
     font-size: 1.5rem;
@@ -153,9 +164,11 @@
     width: 100%;
     height: 100%;
   }
+
   :root{
     --border-radius: 5px 5px 5px 5px;
     }
+
   .main-activites__card{
    background-color: var( --white-color);
    width: 100%;
@@ -163,19 +176,22 @@
    border-radius:var(--border-radius) ;
    box-shadow:1px 1px 1px 1px #f2f2f2;
   }
+
   .main-activites__card--1{
     grid-column-start:1 ;
     grid-row:1/3;
   }
+
   .main-activites__card--2{
     grid-column-start:2 ;
     grid-row-start:1 ;
   }
+
   .main-activites__card--3{
     grid-column-start:2 ;
     grid-row:2;
-    
   }
+
   .main-activites__card--4{
     grid-column-start:3 ;
     grid-row:1/3
@@ -184,10 +200,12 @@
     grid-column-start:4 ;
     grid-row-start:1 ;
   }
+
   .main-activites__card--6{
     grid-column-start:4;
     grid-row-start:2 ;
   }
+  
   .main-activites__card__link__image{
     object-fit: cover;
     width: 100%;
