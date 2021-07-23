@@ -1,0 +1,16 @@
+.footer-list{
+    margin-top:30%;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 10rem;
+    background-color: var(--background-color);
+}
+.footer-list__title{
+    font-size: 1.5rem;
+    padding-top:var(--spacing-xs) ;
+    padding-bottom: var(--spacing-xs);
+}
+li{
+    padding-bottom: var(--spacing-xs);
+}
