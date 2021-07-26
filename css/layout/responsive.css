@@ -85,22 +85,75 @@
 }
 
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
 
+  .header-top-nav__links__link{
+   margin-top: rem;
+  }
 
   
-  .header-top-nav__links__link{
-   margin-top: 3rem;
+  .header-search__icon{
+    font-size: 2rem;
+    width:var(--spacing-md) ;
+    height: var(--spacing-md);
+  }
+
+  .header_search__button__text{
+    display: none;
+  }
+
+  .header_search__button{
+    width: 15%;
+  }
+
+  .header_search__button__icon.fas.fa-search{
+    display: inline;
+  }
+
+  .header-filters{
+    width: 100%;
+    height: 20rem;
+
+  }
+  .header-filters__filter{
+
+  }
+
+  .header-info{
+    font-size: 1.5rem;
+  }
+  .main-hebergements{
+    width: 100%;
+  }
+  
+  .main-populaires__card__link__title{
+    font-size: 1.5rem;
+  }
+
+  .main-populaires__card__link__text{
+    font-size: 1.2rem;
   }
 
   .main-populaires{
-    width: 100%;
+    width:140%;
     height: 40rem;
-    
   }
+
   .main-hebergements__card{
     display: grid;
     grid-template-columns: 1fr;
     width: 90%;
+    margin: auto;
+  }
+  .footer-list{
+    margin-top:80rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+  }
+  .footer-list__title{
+    margin-top: 3rem;
   }
 }
