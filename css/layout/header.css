@@ -102,7 +102,7 @@ header {
 }
 
 :root {
-  --filter-size: 2rem;
+  --filter-size: 3rem;
   --border-size: 2px;
 }
 
@@ -110,6 +110,8 @@ header {
   display: flex;
   align-items: center;
   margin: var(--spacing-base) 0;
+  font-weight: 900;
+  width: 100%;
 }
 
 .header-filters__filter:hover {
