@@ -113,17 +113,16 @@
   }
 
  .header-filters__filter{
-   width: 32%;
+  margin: 0 var(--spacing-xs);
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: var(--spacing-xs);
  }
-  .header-filters__title{
-    padding-right: 40%;
-    padding-bottom: var(--spacing-xs);
-  }
-  
-  .header-filters__text{
-    display: flex;
-    flex-wrap: nowrap;
-  }
+
+ .header-filters__title{
+  padding-right: 40%;
+  padding-bottom: var(--spacing-xs);
+}
 
   .header-info{
     font-size: 1.5rem;
@@ -133,11 +132,8 @@
   }
   
   .main-populaires__card__link__title{
-    font-size: 1.5rem;
-  }
-
-  .main-populaires__card__link__text{
     font-size: 1.2rem;
+    font-weight: 800;
   }
 
   .main-populaires{
@@ -148,18 +144,25 @@
   .main-hebergements__card{
     display: grid;
     grid-template-columns: 1fr;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
+
   .footer-list{
-    
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     height: auto;
-    margin-right: auto;
+    
   }
+
   .footer-list__title{
+    margin-left: var(--spacing-xs);
     margin-top: 3rem;
+  }
+
+  .footer-list__list{
+    margin-left: var(--spacing-xs);
   }
 }
