@@ -16,6 +16,7 @@
 .main-hebergements__title {
   padding: var(--spacing-base);
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 :root {
@@ -47,6 +48,7 @@
 .main-hebergements__card__link__title {
   font-size: 1.5rem;
   margin-top: 5px;
+  font-weight: 600;
 }
 
 .main-hebergements__card__link__text {
@@ -72,9 +74,12 @@
 }
 
 .main-hebergements__link__info {
+  font-size: 1.2rem;
+  color: var(--black-color);
   margin-top: var(--spacing-md);
   margin-left: var(--spacing-base);
   text-decoration: none;
+  font-weight: 600;
 }
 
 :root {
@@ -89,6 +94,7 @@
 
 .main-populaires__title__icon {
   font-size: 1.5rem;
+  font-weight: 600;
   display: flex;
   justify-content: space-around;
   padding-bottom: var(--spacing-base);
@@ -103,7 +109,7 @@
   display: block;
   background-color: var(--white-color);
   border-radius: 1rem;
-  width: 85%;
+  width: 90%;
   height: 9rem;
   text-decoration: none;
   margin-bottom: var(--spacing-base);
@@ -128,7 +134,8 @@
   padding-bottom: var(--spacing-xs);
   text-decoration: transparent;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .main-populaires__card__link__text {
@@ -153,6 +160,7 @@
   margin-top: var(--spacing-base);
   padding-bottom: var(--spacing-base);
   font-size: 1.5rem;
+  font-weight: 600;
   margin-left: var(--spacing-base);
 }
 
@@ -186,6 +194,7 @@
   text-decoration: none;
   color:var(--black-color);
   font-size: 1.2rem;
+  font-weight: 600;
 }
 .main-activites__contenair > :nth-child(1) {
   grid-column-start: 1;
