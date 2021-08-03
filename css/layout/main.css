@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   width: 65%;
-  height: 40rem;
+  height: 45rem;
   background-color: var(--background-color);
   border-radius: 20px 20px 20px 20px;
 }
@@ -26,7 +26,7 @@
 
 .main-hebergements__card {
   display: grid;
-  grid-gap: var(--spacing-base);
+  grid-gap: var(--spacing-md);
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -80,7 +80,7 @@
 .main-hebergements__link__info {
   font-size: 1.2rem;
   color: var(--black-color);
-  margin-top: var(--spacing-md);
+  margin-top:8rem;
   margin-left: var(--spacing-base);
   text-decoration: none;
   font-weight: 600;
