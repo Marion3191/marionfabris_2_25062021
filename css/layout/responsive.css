@@ -16,7 +16,7 @@
 
 .main-populaires{
   width: 100%;
-  height: 60vw;
+  height: 70vw;
 }
 
 .main-populaires__title__icon{
@@ -25,15 +25,15 @@
 
 .main-populaires__card__link{
  width: 70%;
- height: 10rem;
+ height: 9rem;
  margin: auto;
  margin-bottom: var(--spacing-base);
   
 }
 .main-populaires__card__link__image{
   height: 8rem;
-  border-top-left-radius: 3vw;
-  border-bottom-left-radius: 3vw;
+  border-top-left-radius: 2vw;
+  border-bottom-left-radius: 2vw;
   padding-right: var(--spacing-base);
 }
 
@@ -133,7 +133,7 @@
   }
 
   .header-search__icon{
-    font-size: 2rem;
+    font-size: 1.2rem;
     width:var(--spacing-md) ;
     height: var(--spacing-md);
   }
@@ -143,7 +143,10 @@
   }
 
   .header_search__button{
-    width: 10%;
+    position: relative;
+    right: 30px;
+    width: 15%;
+    border-radius: 1rem;
   }
 
   .header_search__button__icon.fas.fa-search{
@@ -151,19 +154,25 @@
   }
 
  .header-filters__filter{
-  margin: 0 var(--spacing-xs);
+   margin: 0 var(--spacing-xs);
    display: flex;
    flex-wrap: wrap;
    margin-bottom: var(--spacing-xs);
  }
 
  .header-filters__title{
+   font-size: 1.2rem;
   padding-right: 40%;
   padding-bottom: var(--spacing-xs);
 }
 
   .header-info{
-    font-size: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .header-info__icon.fas.fa-info{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
   }
   .main-hebergements{
     width: 100%;
@@ -181,11 +190,14 @@
 
   .main-populaires__card__link{
     width: 95%;
+    height: 9rem;
   }
 
   .main-populaires__card__link__image{
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
+    width: 30%;
+    height: 8rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
   }
 
   .main-hebergements__card{
@@ -195,7 +207,31 @@
     margin: auto;
   }
 
+  .main-hebergements__card__link__title{
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  .main-hebergements__card__link__stars{
+    font-size: 0.8rem;
+  }
+
+  .main-hebergements__link__info{
+  font-weight: 900;
+  }
+  
+  .main-activites__title{
+    font-weight: 900;
+  }
+
+  .main-activites__card__link__title{
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+
   .footer-list{
+    margin-top: 95rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -205,8 +241,10 @@
   }
 
   .footer-list__title{
+    font-size: 1.2rem;
+    font-weight: 900;
     margin-left: var(--spacing-xs);
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .footer-list__list{
