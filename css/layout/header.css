@@ -56,9 +56,9 @@ header {
 }
 
 :root {
-  --icon-size: 3rem;
-  --border-radius-left: 0.5rem 0rem 0rem 0.5rem;
-  --border-radius-right: 0rem 0.5rem 0.5rem 0rem;
+  --icon-size: 4rem;
+  --border-radius-left: 1rem 0rem 0rem 1rem;
+  --border-radius-right: 0rem 1rem 1rem 0rem;
 }
 
 .header-search {
@@ -67,7 +67,7 @@ header {
 }
 
 .header-search__icon {
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@ header {
 .header_search__input {
   font-size: 1.2rem;
   font-weight: 600;
-  width: 15rem;
+  width: 20rem;
   border: 1px solid var(--background-color);
   padding-left: var(--spacing-xs);
   /* outline: 0; */
@@ -91,7 +91,8 @@ header {
 }
 
 .header_search__button {
-  font-size: 1rem;
+  width: 8%;
+  font-size: 1.2rem;
   background-color: var(--primary-color);
   color: var(--white-color);
   border-radius: var(--border-radius-right);

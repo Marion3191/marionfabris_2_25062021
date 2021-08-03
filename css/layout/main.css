@@ -7,7 +7,7 @@
 .main-hebergements {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 65%;
   height: 40rem;
   background-color: var(--background-color);
   border-radius: 20px 20px 20px 20px;
@@ -16,7 +16,7 @@
 .main-hebergements__title {
   padding: var(--spacing-base);
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 :root {
@@ -31,7 +31,7 @@
 }
 
 .main-hebergements__card__link {
-  width: auto;
+  width:auto;
   height: 100%;
   border-radius: 1rem;
   background-color: var(--white-color);
@@ -46,14 +46,16 @@
 }
 
 .main-hebergements__card__link__title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 5px;
-  font-weight: 600;
+  font-weight: 900;
+  padding-left: var(--spacing-xs);
 }
 
 .main-hebergements__card__link__text {
   margin-top: 5px;
   font-size: 1.2;
+  padding-left: var(--spacing-xs);
 }
 
 .main-hebergements__card__link__image {
@@ -65,8 +67,10 @@
 }
 
 .main-hebergements__card__link__stars {
+  font-size: 0.8rem;
   margin-top: 5px;
   color: #0065fc;
+  padding-left: var(--spacing-xs);
 }
 
 .fas.fa-star.grey {
@@ -88,13 +92,13 @@
 
 .main-populaires {
   background-color: var(--background-color);
-  width: 25%;
+  width: 30%;
   border-radius: 1rem;
 }
 
 .main-populaires__title__icon {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 900;
   display: flex;
   justify-content: space-around;
   padding-bottom: var(--spacing-base);
@@ -110,7 +114,7 @@
   background-color: var(--white-color);
   border-radius: 1rem;
   width: 90%;
-  height: 8rem;
+  height: 10rem;
   text-decoration: none;
   margin-bottom: var(--spacing-base);
   margin-left: var(--spacing-base);
@@ -122,7 +126,7 @@
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   width: 50%;
-  height: 6vw;
+  height: 9rem;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
@@ -134,8 +138,8 @@
   padding-bottom: var(--spacing-xs);
   text-decoration: transparent;
   color: black;
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 900;
 }
 
 .main-populaires__card__link__text {
@@ -147,6 +151,8 @@
 
 .main-populaires__card__link__stars {
   color: #0065fc;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 .main-activites {

@@ -8,7 +8,7 @@
 
 .footer-list__title{
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 900;
     padding-top:var(--spacing-xs) ;
     padding-bottom: var(--spacing-xs);
 }
