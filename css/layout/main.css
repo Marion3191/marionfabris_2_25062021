@@ -165,7 +165,7 @@
 }
 
 :root {
-  --card-size: 250px;
+  --card-size: 200px;
 }
 
 .main-activites__contenair {
@@ -182,7 +182,7 @@
 
 .main-activites__card {
   background-color: var(--white-color);
-  height:var(--card-size);
+  height:var(--card-size-);
   border-radius: var(--border-radius);
   box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem #f2f2f2;
   padding:0.5rem;
@@ -226,7 +226,7 @@
 }
 
 :root {
-  --card-size-long: calc(var(--card-size) * 2 + var(--spacing-base));
+  --card-size-long: calc(var(--card-size) * 2 + var(--spacing-xl));
 }
 
 .main-activites__contenair > :nth-child(1),
@@ -236,7 +236,12 @@
 
 .main-activites__contenair > :nth-child(1) .main-activites__card__link__image,
 .main-activites__contenair > :nth-child(4) .main-activites__card__link__image {
-  height: calc(var(--card-size-long) - var(--card-size-long) / 4);
+  height: calc(var(--card-size-long) - var(--card-size-long) / 8);
+}
+
+.main-activites__card__link__title{
+ padding-top: var(--spacing-xs);
+ padding-left: var(--spacing-xs); 
 }
 
 .main-activites__card__link__image {
