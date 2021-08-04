@@ -54,7 +54,7 @@
 
 .main-hebergements__card__link__text {
   margin-top: 5px;
-  font-size: 1.2;
+  font-size: 1.2rem;
   padding-left: var(--spacing-xs);
 }
 

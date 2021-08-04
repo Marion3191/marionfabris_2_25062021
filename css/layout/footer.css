@@ -1,21 +1,21 @@
-.footer-list {
+.footer-list{
   display: flex;
   background-color: var(--background-color);
   margin-top: var(--spacing-md);
 }
 
-.footer-list > * {
+.footer-list{
   width: calc(100% / 3);
   padding: 0 3rem;
 }
 
-.footer-list__title {
+.footer-list__title{
   font-size: 1.5rem;
   font-weight: 900;
   padding-top: var(--spacing-xs);
   padding-bottom: var(--spacing-xs);
 }
 
-li {
+li{
   padding-bottom: var(--spacing-xs);
 }
